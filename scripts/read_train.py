@@ -15,7 +15,7 @@ READ_ENDPOINT = "/api_trains_for_llm_v2"
 API_KEY = "xjllm_d42fb46179f672f1e039743c194e9ab51f1ae801bdea92c0"
 
 # 输出目录
-OUTPUT_DIR = Path(__file__).resolve().parent / "ReadBack"
+OUTPUT_DIR = Path(__file__).resolve().parent.parent / "training_data"
 OUTPUT_DIR.mkdir(exist_ok=True)
 
 
