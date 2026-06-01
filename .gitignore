@@ -18,5 +18,5 @@ chroma_db/
 .vscode/
 .idea/
 
-# Playwright logs
-.playwright-mcp/
+# Personal (local only)
+profile.json
