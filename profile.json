@@ -1,0 +1,30 @@
+{
+  "last_updated": "2026-06-01",
+  "basic_info": {
+    "name": "chowJY",
+    "age": 33,
+    "gender": "男性",
+    "height_cm": 175,
+    "weight_kg": 82,
+    "bmi": 26.8
+  },
+  "training_history": {
+    "experience": "1年半",
+    "level": "中级",
+    "max_training_frequency": null
+  },
+  "personal_records": {
+    "bench_press_kg": 100,
+    "squat_kg": 130,
+    "romanian_deadlift_kg": 110,
+    "deadlift_kg": null,
+    "overhead_press_kg": null
+  },
+  "injuries": [
+    {
+      "condition": "腰椎间盘膨出",
+      "notes": "需避免大重量脊柱压缩类动作（如传统硬拉、大重量深蹲），优先选择罗马尼亚硬拉、高脚杯深蹲等对腰椎友好的替代动作"
+    }
+  ],
+  "goals": null
+}
