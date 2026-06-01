@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment
+.env
+.env.example
+
+# System
+.DS_Store
+Thumbs.db
+
+# ChromaDB (large binary files)
+chroma_db/
+
+# IDE
+.vscode/
+.idea/
+
+# Playwright logs
+.playwright-mcp/
