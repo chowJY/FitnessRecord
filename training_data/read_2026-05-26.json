@@ -1,0 +1,448 @@
+{
+  "request": {
+    "method": "POST",
+    "endpoint": "/api_trains_for_llm_v2",
+    "datestr": "2026-05-26",
+    "include_full_data": true
+  },
+  "response": {
+    "res": {
+      "schema": "train_open_api_v2",
+      "schema_version": "train_open_api_v2",
+      "version": 2,
+      "mode": "full",
+      "includeFullData": true,
+      "include_full_data": true,
+      "datestr": "2026-05-26",
+      "movementCatalogUrl": "/api_movement_catalog_for_llm_v2",
+      "movement_catalog_url": "/api_movement_catalog_for_llm_v2",
+      "limits": {
+        "maxTrainsPerDay": 4,
+        "maxMovesPerTrain": 40,
+        "maxSetsPerMove": 60,
+        "maxWriteMovesPerTrain": 15,
+        "maxWriteSetsPerMove": 20,
+        "maxPayloadBytes": 131072,
+        "maxResponseBytes": 196608,
+        "readRateLimitSeconds": 30,
+        "readRateLimitSecondsLight": 15,
+        "readRateLimitSecondsFull": 30,
+        "writeRateLimitSeconds": 45
+      },
+      "truncated": false,
+      "trains": [
+        {
+          "localid": 1779756524453,
+          "datestr": "2026-05-26",
+          "title": "下肢A（股四·臀·核心）",
+          "note": "calorie:198 personalworkout_id:1779606774757 personalplanid:189421",
+          "start": 1779757236262,
+          "end": 1779760359448,
+          "started_at": 1779757236262,
+          "ended_at": 1779760359448,
+          "movements": [
+            {
+              "index": 1,
+              "name": "哑铃酒杯深蹲",
+              "type": "",
+              "exetype": "weight",
+              "sets": [
+                {
+                  "index": 1,
+                  "done": true,
+                  "weight": "22.5",
+                  "unit": "kg",
+                  "reps": "12",
+                  "time": 90,
+                  "timeLabel": "",
+                  "selfWeight": false,
+                  "rpe": "",
+                  "note": "",
+                  "comment": "",
+                  "setType": "",
+                  "restSeconds": 90
+                },
+                {
+                  "index": 2,
+                  "done": true,
+                  "weight": "25",
+                  "unit": "kg",
+                  "reps": "10",
+                  "time": 90,
+                  "timeLabel": "",
+                  "selfWeight": false,
+                  "rpe": "",
+                  "note": "",
+                  "comment": "",
+                  "setType": "",
+                  "restSeconds": 90
+                },
+                {
+                  "index": 3,
+                  "done": true,
+                  "weight": "25",
+                  "unit": "kg",
+                  "reps": "10",
+                  "time": 90,
+                  "timeLabel": "",
+                  "selfWeight": false,
+                  "rpe": "",
+                  "note": "",
+                  "comment": "",
+                  "setType": "",
+                  "restSeconds": 90
+                },
+                {
+                  "index": 4,
+                  "done": true,
+                  "weight": "22.5",
+                  "unit": "kg",
+                  "reps": "12",
+                  "time": 90,
+                  "timeLabel": "",
+                  "selfWeight": false,
+                  "rpe": "",
+                  "note": "",
+                  "comment": "",
+                  "setType": "",
+                  "restSeconds": 90
+                }
+              ],
+              "truncated": false,
+              "note": ""
+            },
+            {
+              "index": 2,
+              "name": "坐姿腿屈伸",
+              "type": "",
+              "exetype": "weight",
+              "sets": [
+                {
+                  "index": 1,
+                  "done": true,
+                  "weight": "36",
+                  "unit": "kg",
+                  "reps": "15",
+                  "time": 60,
+                  "timeLabel": "",
+                  "selfWeight": false,
+                  "rpe": "",
+                  "note": "",
+                  "comment": "",
+                  "setType": ""
+                },
+                {
+                  "index": 2,
+                  "done": true,
+                  "weight": "40.5",
+                  "unit": "kg",
+                  "reps": "12",
+                  "time": 60,
+                  "timeLabel": "",
+                  "selfWeight": false,
+                  "rpe": "",
+                  "note": "",
+                  "comment": "",
+                  "setType": ""
+                },
+                {
+                  "index": 3,
+                  "done": true,
+                  "weight": "45",
+                  "unit": "kg",
+                  "reps": "10",
+                  "time": 60,
+                  "timeLabel": "",
+                  "selfWeight": false,
+                  "rpe": "",
+                  "note": "",
+                  "comment": "",
+                  "setType": ""
+                }
+              ],
+              "truncated": false,
+              "note": "",
+              "difficulty": "easy"
+            },
+            {
+              "index": 3,
+              "name": "哑铃保加利亚蹲",
+              "type": "",
+              "exetype": "weight",
+              "sets": [
+                {
+                  "index": 1,
+                  "done": true,
+                  "weight": "12.5",
+                  "unit": "kg",
+                  "reps": "12",
+                  "time": 60,
+                  "timeLabel": "",
+                  "selfWeight": false,
+                  "rpe": "",
+                  "note": "",
+                  "comment": "",
+                  "setType": "",
+                  "leftWeight": "12.5"
+                },
+                {
+                  "index": 2,
+                  "done": true,
+                  "weight": "15",
+                  "unit": "kg",
+                  "reps": "10",
+                  "time": 60,
+                  "timeLabel": "",
+                  "selfWeight": false,
+                  "rpe": "",
+                  "note": "",
+                  "comment": "",
+                  "setType": ""
+                },
+                {
+                  "index": 3,
+                  "done": true,
+                  "weight": "15",
+                  "unit": "kg",
+                  "reps": "10",
+                  "time": 60,
+                  "timeLabel": "",
+                  "selfWeight": false,
+                  "rpe": "",
+                  "note": "",
+                  "comment": "",
+                  "setType": ""
+                }
+              ],
+              "truncated": false,
+              "note": ""
+            },
+            {
+              "index": 4,
+              "name": "腿弯举",
+              "type": "",
+              "exetype": "",
+              "sets": [
+                {
+                  "index": 1,
+                  "done": true,
+                  "weight": "36",
+                  "unit": "kg",
+                  "reps": "15",
+                  "time": 60,
+                  "timeLabel": "",
+                  "selfWeight": false,
+                  "rpe": "",
+                  "note": "",
+                  "comment": "",
+                  "setType": ""
+                },
+                {
+                  "index": 2,
+                  "done": true,
+                  "weight": "40.5",
+                  "unit": "kg",
+                  "reps": "12",
+                  "time": 60,
+                  "timeLabel": "",
+                  "selfWeight": false,
+                  "rpe": "",
+                  "note": "",
+                  "comment": "",
+                  "setType": "",
+                  "leftWeight": "40.5"
+                },
+                {
+                  "index": 3,
+                  "done": true,
+                  "weight": "40.5",
+                  "unit": "kg",
+                  "reps": "12",
+                  "time": 60,
+                  "timeLabel": "",
+                  "selfWeight": false,
+                  "rpe": "",
+                  "note": "",
+                  "comment": "",
+                  "setType": "",
+                  "leftWeight": "40.5"
+                }
+              ],
+              "truncated": false,
+              "note": ""
+            },
+            {
+              "index": 5,
+              "name": "器械臀冲",
+              "type": "",
+              "exetype": "weight",
+              "sets": [
+                {
+                  "index": 1,
+                  "done": true,
+                  "weight": "60",
+                  "unit": "kg",
+                  "reps": "12",
+                  "time": 90,
+                  "timeLabel": "",
+                  "selfWeight": false,
+                  "rpe": "",
+                  "note": "",
+                  "comment": "",
+                  "setType": "",
+                  "restSeconds": 90
+                },
+                {
+                  "index": 2,
+                  "done": true,
+                  "weight": "70",
+                  "unit": "kg",
+                  "reps": "10",
+                  "time": 90,
+                  "timeLabel": "",
+                  "selfWeight": false,
+                  "rpe": "",
+                  "note": "",
+                  "comment": "",
+                  "setType": "",
+                  "restSeconds": 90
+                },
+                {
+                  "index": 3,
+                  "done": true,
+                  "weight": "70",
+                  "unit": "kg",
+                  "reps": "10",
+                  "time": 90,
+                  "timeLabel": "",
+                  "selfWeight": false,
+                  "rpe": "",
+                  "note": "",
+                  "comment": "",
+                  "setType": "",
+                  "restSeconds": 90
+                }
+              ],
+              "truncated": false,
+              "note": ""
+            },
+            {
+              "index": 6,
+              "name": "哑铃箭步蹲",
+              "type": "",
+              "exetype": "weight",
+              "sets": [
+                {
+                  "index": 1,
+                  "done": true,
+                  "weight": "15",
+                  "unit": "kg",
+                  "reps": "12",
+                  "time": 90,
+                  "timeLabel": "",
+                  "selfWeight": false,
+                  "rpe": "",
+                  "note": "",
+                  "comment": "",
+                  "setType": "",
+                  "restSeconds": 90
+                },
+                {
+                  "index": 2,
+                  "done": true,
+                  "weight": "20",
+                  "unit": "kg",
+                  "reps": "10",
+                  "time": 90,
+                  "timeLabel": "",
+                  "selfWeight": false,
+                  "rpe": "",
+                  "note": "",
+                  "comment": "",
+                  "setType": "",
+                  "leftWeight": "20",
+                  "restSeconds": 90
+                },
+                {
+                  "index": 3,
+                  "done": true,
+                  "weight": "20",
+                  "unit": "kg",
+                  "reps": "10",
+                  "time": 90,
+                  "timeLabel": "",
+                  "selfWeight": false,
+                  "rpe": "",
+                  "note": "",
+                  "comment": "",
+                  "setType": "",
+                  "leftWeight": "20",
+                  "restSeconds": 90
+                }
+              ],
+              "truncated": false,
+              "note": ""
+            },
+            {
+              "index": 7,
+              "name": "鸟狗式",
+              "type": "",
+              "exetype": "times",
+              "sets": [
+                {
+                  "index": 1,
+                  "done": true,
+                  "weight": "",
+                  "unit": "",
+                  "reps": "10",
+                  "time": 30,
+                  "timeLabel": "",
+                  "selfWeight": false,
+                  "rpe": "",
+                  "note": "",
+                  "comment": "",
+                  "setType": "",
+                  "restSeconds": 30
+                },
+                {
+                  "index": 2,
+                  "done": true,
+                  "weight": "",
+                  "unit": "",
+                  "reps": "10",
+                  "time": 30,
+                  "timeLabel": "",
+                  "selfWeight": false,
+                  "rpe": "",
+                  "note": "",
+                  "comment": "",
+                  "setType": "",
+                  "restSeconds": 30
+                },
+                {
+                  "index": 3,
+                  "done": true,
+                  "weight": "",
+                  "unit": "",
+                  "reps": "10",
+                  "time": 0,
+                  "timeLabel": "",
+                  "selfWeight": false,
+                  "rpe": "",
+                  "note": "",
+                  "comment": "",
+                  "setType": "",
+                  "restSeconds": 30
+                }
+              ],
+              "truncated": false,
+              "note": ""
+            }
+          ],
+          "truncated": false
+        }
+      ]
+    }
+  },
+  "saved_at": "2026-06-01T16:41:51.129656"
+}
