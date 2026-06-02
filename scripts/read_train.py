@@ -3,7 +3,7 @@
 读取指定日期的训练计划 fulldata，并将服务端返回的 res 保存为 UTF-8 JSON 文件。
 
 用法: python read_train.py [日期，默认 2026-06-01]
-输出: ReadBack/read_2026-06-01.json
+输出: training_data/read_2026-06-01.json
 """
 import sys, os, json, requests
 from pathlib import Path
