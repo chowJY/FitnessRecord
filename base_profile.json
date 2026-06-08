@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-06-08",
+  "data_range": "2026-05-25 ~ 2026-06-08",
+  "summary": {
+    "training_days": 9,
+    "training_sessions": 9,
+    "total_sets": 189,
+    "frequency_per_week": 4.5,
+    "primary_split": "上下肢分化（推/拉/腿A/腿B）",
+    "avg_movements_per_session": 7,
+    "avg_sets_per_session": 21
+  },
+  "training_split": {
+    "上肢推（胸·肩·三头）": {
+      "sessions": 3,
+      "exercises": ["杠铃卧推", "上斜哑铃卧推", "蝴蝶机飞鸟", "绳索臂屈伸", "哑铃推肩", "侧平举", "绳索侧平举（单边）", "绳索跪姿卷腹"],
+      "core_exercises": ["杠铃卧推", "上斜哑铃卧推", "蝴蝶机飞鸟"]
+    },
+    "下肢A（股四·臀·核心）": {
+      "sessions": 2,
+      "exercises": ["哑铃酒杯深蹲", "坐姿腿屈伸", "器械臀冲", "哑铃箭步蹲", "哑铃保加利亚蹲", "腿弯举", "鸟狗式", "卷腹"],
+      "core_exercises": ["哑铃酒杯深蹲", "坐姿腿屈伸", "器械臀冲"]
+    },
+    "上肢拉（背·后束·二头）": {
+      "sessions": 2,
+      "exercises": ["坐姿划船", "悍马机划船(v1)", "宽距高位下拉", "平躺哑铃过头拉", "蝴蝶机反向飞鸟", "哑铃弯举", "平板支撑"],
+      "core_exercises": ["坐姿划船", "悍马机划船(v1)", "宽距高位下拉"]
+    },
+    "下肢B（臀·腘绳·有氧收尾）": {
+      "sessions": 2,
+      "exercises": ["器械臀冲", "俯卧哑铃腿弯举", "哑铃箭步蹲", "腿弯举", "爬坡走", "平板支撑"],
+      "core_exercises": ["器械臀冲", "腿弯举", "俯卧哑铃腿弯举"]
+    }
+  },
+  "movement_progression": {
+    "杠铃卧推": {"max_weight": 80, "avg_reps": 9.5, "total_sessions": 3, "trend": "up"},
+    "上斜哑铃卧推": {"max_weight": 27.5, "avg_reps": 11, "total_sessions": 3, "trend": "stable", "note": "单边标注（单手重量），总重 = 单手 x2"},
+    "蝴蝶机飞鸟": {"max_weight": 40.5, "avg_reps": 13, "total_sessions": 3, "trend": "up"},
+    "绳索臂屈伸": {"max_weight": 49.5, "avg_reps": 14, "total_sessions": 3, "trend": "up"},
+    "坐姿划船": {"max_weight": 54, "avg_reps": 10.7, "total_sessions": 3, "trend": "up"},
+    "哑铃酒杯深蹲": {"max_weight": 25, "avg_reps": 12, "total_sessions": 4, "trend": "up"},
+    "坐姿腿屈伸": {"max_weight": 45, "avg_reps": 12, "total_sessions": 4, "trend": "up"},
+    "器械臀冲": {"max_weight": 70, "avg_reps": 12, "total_sessions": 4, "trend": "up"},
+    "绳索跪姿卷腹": {"max_weight": 58.5, "avg_reps": 15, "total_sessions": 1, "trend": "new"},
+    "绳索侧平举（单边）": {"max_weight": 14, "avg_reps": 13, "total_sessions": 1, "trend": "new", "note": "单边标注（单手重量），总重 = 单手 x2"}
+  },
+  "weight_notation_rules": {
+    "total_weight": "所有动作重量标注必须是总重量",
+    "unilateral": "单边动作（哑铃/绳索单边）标注两只手重量总和，如哑铃卧推单手25kg → 标注50kg",
+    "machine": "器械重量标注器械显示的负重片总重量",
+    "barbell": "杠铃标注包含杠铃杆重量（标准杆20kg）的总重量"
+  }
+}
