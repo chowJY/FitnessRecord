@@ -1,0 +1,456 @@
+{
+  "request": {
+    "method": "POST",
+    "endpoint": "/api_trains_for_llm_v2",
+    "datestr": "2026-06-08",
+    "include_full_data": true
+  },
+  "response": {
+    "res": {
+      "schema": "train_open_api_v2",
+      "schema_version": "train_open_api_v2",
+      "version": 2,
+      "mode": "full",
+      "includeFullData": true,
+      "include_full_data": true,
+      "datestr": "2026-06-08",
+      "movementCatalogUrl": "/api_movement_catalog_for_llm_v2",
+      "movement_catalog_url": "/api_movement_catalog_for_llm_v2",
+      "limits": {
+        "maxTrainsPerDay": 4,
+        "maxMovesPerTrain": 40,
+        "maxSetsPerMove": 60,
+        "maxWriteMovesPerTrain": 15,
+        "maxWriteSetsPerMove": 20,
+        "maxPayloadBytes": 131072,
+        "maxResponseBytes": 196608,
+        "readRateLimitSeconds": 30,
+        "readRateLimitSecondsLight": 15,
+        "readRateLimitSecondsFull": 30,
+        "writeRateLimitSeconds": 45
+      },
+      "truncated": false,
+      "trains": [
+        {
+          "localid": 1780369094441001,
+          "datestr": "2026-06-08",
+          "title": "上肢A（推主导·背部辅助）",
+          "note": "calorie:221",
+          "start": 1780880944319,
+          "end": 1780884509576,
+          "started_at": 1780880944319,
+          "ended_at": 1780884509576,
+          "movements": [
+            {
+              "index": 1,
+              "name": "杠铃卧推",
+              "type": "",
+              "exetype": "weight",
+              "sets": [
+                {
+                  "index": 1,
+                  "done": true,
+                  "weight": "70",
+                  "unit": "kg",
+                  "reps": "12",
+                  "time": 150,
+                  "timeLabel": "",
+                  "selfWeight": false,
+                  "rpe": "",
+                  "note": "",
+                  "comment": "",
+                  "setType": ""
+                },
+                {
+                  "index": 2,
+                  "done": true,
+                  "weight": "75",
+                  "unit": "kg",
+                  "reps": "10",
+                  "time": 150,
+                  "timeLabel": "",
+                  "selfWeight": false,
+                  "rpe": "",
+                  "note": "",
+                  "comment": "",
+                  "setType": ""
+                },
+                {
+                  "index": 3,
+                  "done": true,
+                  "weight": "80",
+                  "unit": "kg",
+                  "reps": "8",
+                  "time": 150,
+                  "timeLabel": "",
+                  "selfWeight": false,
+                  "rpe": "",
+                  "note": "",
+                  "comment": "",
+                  "setType": ""
+                },
+                {
+                  "index": 4,
+                  "done": true,
+                  "weight": "80",
+                  "unit": "kg",
+                  "reps": "8",
+                  "time": 150,
+                  "timeLabel": "",
+                  "selfWeight": false,
+                  "rpe": "",
+                  "note": "",
+                  "comment": "",
+                  "setType": ""
+                }
+              ],
+              "truncated": false,
+              "note": ""
+            },
+            {
+              "index": 2,
+              "name": "上斜哑铃卧推",
+              "type": "",
+              "exetype": "weight",
+              "sets": [
+                {
+                  "index": 1,
+                  "done": true,
+                  "weight": "25",
+                  "unit": "kg",
+                  "reps": "12",
+                  "time": 90,
+                  "timeLabel": "",
+                  "selfWeight": false,
+                  "rpe": "",
+                  "note": "",
+                  "comment": "",
+                  "setType": "",
+                  "leftWeight": "25"
+                },
+                {
+                  "index": 2,
+                  "done": true,
+                  "weight": "27.5",
+                  "unit": "kg",
+                  "reps": "10",
+                  "time": 90,
+                  "timeLabel": "",
+                  "selfWeight": false,
+                  "rpe": "",
+                  "note": "",
+                  "comment": "",
+                  "setType": "",
+                  "leftWeight": "27.5"
+                },
+                {
+                  "index": 3,
+                  "done": true,
+                  "weight": "27.5",
+                  "unit": "kg",
+                  "reps": "10",
+                  "time": 90,
+                  "timeLabel": "",
+                  "selfWeight": false,
+                  "rpe": "",
+                  "note": "",
+                  "comment": "",
+                  "setType": "",
+                  "leftWeight": "27.5"
+                }
+              ],
+              "truncated": false,
+              "note": "",
+              "singleSide": true
+            },
+            {
+              "index": 3,
+              "name": "坐姿划船",
+              "type": "",
+              "exetype": "weight",
+              "sets": [
+                {
+                  "index": 1,
+                  "done": true,
+                  "weight": "49.5",
+                  "unit": "kg",
+                  "reps": "12",
+                  "time": 90,
+                  "timeLabel": "",
+                  "selfWeight": false,
+                  "rpe": "",
+                  "note": "",
+                  "comment": "",
+                  "setType": ""
+                },
+                {
+                  "index": 2,
+                  "done": true,
+                  "weight": "54",
+                  "unit": "kg",
+                  "reps": "10",
+                  "time": 90,
+                  "timeLabel": "",
+                  "selfWeight": false,
+                  "rpe": "",
+                  "note": "",
+                  "comment": "",
+                  "setType": "",
+                  "leftWeight": "54"
+                },
+                {
+                  "index": 3,
+                  "done": true,
+                  "weight": "54",
+                  "unit": "kg",
+                  "reps": "10",
+                  "time": 90,
+                  "timeLabel": "",
+                  "selfWeight": false,
+                  "rpe": "",
+                  "note": "",
+                  "comment": "",
+                  "setType": "",
+                  "leftWeight": "54"
+                },
+                {
+                  "index": 4,
+                  "done": true,
+                  "weight": "54",
+                  "unit": "kg",
+                  "reps": "10",
+                  "time": 90,
+                  "timeLabel": "",
+                  "selfWeight": false,
+                  "rpe": "",
+                  "note": "",
+                  "comment": "",
+                  "setType": "",
+                  "leftWeight": "54"
+                }
+              ],
+              "truncated": false,
+              "note": ""
+            },
+            {
+              "index": 4,
+              "name": "蝴蝶机飞鸟",
+              "type": "",
+              "exetype": "weight",
+              "sets": [
+                {
+                  "index": 1,
+                  "done": true,
+                  "weight": "36",
+                  "unit": "kg",
+                  "reps": "15",
+                  "time": 60,
+                  "timeLabel": "",
+                  "selfWeight": false,
+                  "rpe": "",
+                  "note": "",
+                  "comment": "",
+                  "setType": ""
+                },
+                {
+                  "index": 2,
+                  "done": true,
+                  "weight": "40.5",
+                  "unit": "kg",
+                  "reps": "12",
+                  "time": 60,
+                  "timeLabel": "",
+                  "selfWeight": false,
+                  "rpe": "",
+                  "note": "",
+                  "comment": "",
+                  "setType": ""
+                },
+                {
+                  "index": 3,
+                  "done": true,
+                  "weight": "40.5",
+                  "unit": "kg",
+                  "reps": "12",
+                  "time": 60,
+                  "timeLabel": "",
+                  "selfWeight": false,
+                  "rpe": "",
+                  "note": "",
+                  "comment": "",
+                  "setType": ""
+                }
+              ],
+              "truncated": false,
+              "note": ""
+            },
+            {
+              "index": 5,
+              "name": "绳索臂屈伸",
+              "type": "",
+              "exetype": "weight",
+              "sets": [
+                {
+                  "index": 1,
+                  "done": true,
+                  "weight": "40.5",
+                  "unit": "kg",
+                  "reps": "15",
+                  "time": 60,
+                  "timeLabel": "",
+                  "selfWeight": false,
+                  "rpe": "",
+                  "note": "",
+                  "comment": "",
+                  "setType": ""
+                },
+                {
+                  "index": 2,
+                  "done": true,
+                  "weight": "40.5",
+                  "unit": "kg",
+                  "reps": "15",
+                  "time": 60,
+                  "timeLabel": "",
+                  "selfWeight": false,
+                  "rpe": "",
+                  "note": "",
+                  "comment": "",
+                  "setType": ""
+                },
+                {
+                  "index": 3,
+                  "done": true,
+                  "weight": "49.5",
+                  "unit": "kg",
+                  "reps": "12",
+                  "time": 60,
+                  "timeLabel": "",
+                  "selfWeight": false,
+                  "rpe": "",
+                  "note": "",
+                  "comment": "",
+                  "setType": ""
+                }
+              ],
+              "truncated": false,
+              "note": ""
+            },
+            {
+              "index": 6,
+              "name": "绳索侧平举（单边）",
+              "type": "",
+              "exetype": "weight",
+              "sets": [
+                {
+                  "index": 1,
+                  "done": true,
+                  "weight": "9",
+                  "unit": "kg",
+                  "reps": "15",
+                  "time": 60,
+                  "timeLabel": "",
+                  "selfWeight": false,
+                  "rpe": "",
+                  "note": "",
+                  "comment": "",
+                  "setType": "",
+                  "leftWeight": "4.5"
+                },
+                {
+                  "index": 2,
+                  "done": true,
+                  "weight": "14",
+                  "unit": "kg",
+                  "reps": "12",
+                  "time": 60,
+                  "timeLabel": "",
+                  "selfWeight": false,
+                  "rpe": "",
+                  "note": "",
+                  "comment": "",
+                  "setType": "",
+                  "leftWeight": "14"
+                },
+                {
+                  "index": 3,
+                  "done": true,
+                  "weight": "14",
+                  "unit": "kg",
+                  "reps": "12",
+                  "time": 60,
+                  "timeLabel": "",
+                  "selfWeight": false,
+                  "rpe": "",
+                  "note": "",
+                  "comment": "",
+                  "setType": "",
+                  "leftWeight": "14"
+                }
+              ],
+              "truncated": false,
+              "note": ""
+            },
+            {
+              "index": 7,
+              "name": "绳索跪姿卷腹",
+              "type": "",
+              "exetype": "weight",
+              "sets": [
+                {
+                  "index": 1,
+                  "done": true,
+                  "weight": "58.5",
+                  "unit": "kg",
+                  "reps": "15",
+                  "time": 30,
+                  "timeLabel": "",
+                  "selfWeight": false,
+                  "rpe": "",
+                  "note": "",
+                  "comment": "",
+                  "setType": "",
+                  "leftWeight": "58.5"
+                },
+                {
+                  "index": 2,
+                  "done": true,
+                  "weight": "58.5",
+                  "unit": "kg",
+                  "reps": "15",
+                  "time": 30,
+                  "timeLabel": "",
+                  "selfWeight": false,
+                  "rpe": "",
+                  "note": "",
+                  "comment": "",
+                  "setType": "",
+                  "leftWeight": "58.5"
+                },
+                {
+                  "index": 3,
+                  "done": true,
+                  "weight": "58.5",
+                  "unit": "kg",
+                  "reps": "15",
+                  "time": 0,
+                  "timeLabel": "",
+                  "selfWeight": false,
+                  "rpe": "",
+                  "note": "",
+                  "comment": "",
+                  "setType": "",
+                  "leftWeight": "58.5"
+                }
+              ],
+              "truncated": false,
+              "note": ""
+            }
+          ],
+          "truncated": false
+        }
+      ]
+    }
+  },
+  "saved_at": "2026-06-08T10:30:08.858186"
+}
