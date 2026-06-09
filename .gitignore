@@ -20,3 +20,13 @@ chroma_db/
 
 # Personal (local only)
 profile.json
+
+# Keep repository scope limited to scripts and training data.
+/*
+!/.gitignore
+!/scripts/
+!/scripts/**
+scripts/__pycache__/
+scripts/**/*.pyc
+!/training_data/
+!/training_data/**
